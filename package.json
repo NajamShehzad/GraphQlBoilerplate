@@ -1,0 +1,33 @@
+{
+  "name": "cleanuigraphql",
+  "version": "1.0.0",
+  "description": "Integrate cleanUI admin template with GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js 4000"
+  },
+  "author": "Paul",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "apollo-server-express": "^2.4.8",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "graphql": "^14.2.1",
+    "graphql-resolvers": "^0.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongoose": "^5.5.4",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "css-loader": "^2.1.1",
+    "flow-bin": "^0.98.1",
+    "husky": "^2.2.0",
+    "lint-staged": "^8.1.5",
+    "nodemon": "^1.18.11",
+    "prettier": "^1.17.0"
+  }
+}
